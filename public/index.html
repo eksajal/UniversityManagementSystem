@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>School Management System</title>
+  </head>
+  <body>
+    <!------------------------------Nav--------------------------------->
+    <div class="nav">
+
+      <div class="hamburger" onclick="toggleMenu()">
+        &#9776; <!-- Hamburger icon -->
+    </div>
+
+      <div class="nav-logo">
+        <img style="height: 65px; width: 65px; margin-left: 10px;  margin-top: 20px; " src="images/bg1.jpg" alt="logo" />
+      </div>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li>
+            <a id="explore" href="">Explore</a>
+            <div id="explore_box">
+              <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Department</a></li>
+                <li><a href="">Faculty</a></li>
+                <li><a href="">Student</a></li>
+                <li><a href="">Notice</a></li>
+                <li><a href="">Achievement</a></li>
+                <li><a href="">Courses</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="">Gallery</a></li>
+          <li><a href="">Evaluation</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <script>
+
+function toggleMenu() {
+    const navBar = document.querySelector('.nav-bar');
+    navBar.classList.toggle('active'); // Toggle 'active' class to show/hide menu
+}
+
+
+    </script>
+
+
+    <!------------------------------Header--------------------------------->
+    <div class="header">
+      <img width="100%" height="750px" src="images/bg1.jpg" alt="" />
+      <div class="header-txt">
+        <h1>Celestial Wisdom Academy</h1>
+        <h4>Reaching for the Stars, Grounded in Wisdom!</h4>
+      </div>
+    </div>
+
+    <!------------------------------Main--------------------------------->
+    <div class="intro">
+      <h1>Recent Notice</h1>
+    </div>
+
+    <div class="notice">
+      <h3><strong>Important!</strong></h3>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt
+        nesciunt provident nisi sed, aliquam quia. Excepturi, dignissimos omnis.
+        Sint nemo eveniet impedit molestiae alias rem nobis, optio maxime sed
+        repudiandae.
+      </p>
+
+      <div style="text-align: center; margin-top: 50px;">
+        <div class="faculty_btn">
+          <a href="">View All Notices</a>
+        </div>
+      </div>
+
+    </div>
+
+    
+  
+
+    <div class="intro">
+      <h1>Why Celestial?</h1>
+    </div>
+
+    <div class="why">
+      <div class="why-list">
+        <ul>
+          <li>
+            <i class="fa-regular fa-hand-point-right"></i>Decent Environment
+          </li>
+          <li>
+            <i class="fa-regular fa-hand-point-right"></i>High Qualified Faculty
+          </li>
+          <li>
+            <i class="fa-regular fa-hand-point-right"></i>Mandatory Religious
+            Education
+          </li>
+          <li>
+            <i class="fa-regular fa-hand-point-right"></i>Fixed Students in
+            Classroom
+          </li>
+          <li>
+            <i class="fa-regular fa-hand-point-right"></i>A must Co-curriculum &
+            Cultural Activities
+          </li>
+          <li>
+            <i class="fa-regular fa-hand-point-right"></i>Regular Health Checkup
+          </li>
+          <li>
+            <i class="fa-regular fa-hand-point-right"></i>Eye Soothing Campus
+          </li>
+        </ul>
+      </div>
+      
+    </div>
+
+    <div class="intro">
+      <h1>Faculties</h1>
+    </div>
+
+    <div class="founders-panel">
+      <div class="founder1">
+        <div class="founder-img">
+          <img width="300px" height="350px" src="images/faculty6.jpg" alt="" />
+        </div>
+        <div class="founder-txt">
+          <h3>Akkas</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis
+            sapiente quasi, illo eius suscipit perferendis ratione quia soluta
+            iure nisi? Rerum tenetur doloremque nobis earum harum quas alias id!
+          </p>
+        </div>
+      </div>
+
+      <div class="founder1">
+        <div class="founder-img">
+          <img width="300px" height="350px" src="images/faculty9.jpg" alt="" />
+        </div>
+        <div class="founder-txt">
+          <h3>Sarah</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis
+            sapiente quasi, illo eius suscipit perferendis ratione quia soluta
+            iure nisi? Rerum tenetur doloremque nobis earum harum quas alias id!
+          </p>
+        </div>
+      </div>
+
+      <div class="founder1">
+        <div class="founder-img">
+          <img width="300px" height="350px" src="images/faculty14.jpg" alt="" />
+        </div>
+        <div class="founder-txt">
+          <h3>Zobbar</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nobis
+            sapiente quasi, illo eius suscipit perferendis ratione quia soluta
+            iure nisi? Rerum tenetur doloremque nobis earum harum quas alias id!
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div style="text-align: center; margin-top: 50px;">
+      <div class="faculty_btn">
+        <a href="">View All</a>
+      </div>
+    </div>
+
+
+
+    <div class="intro">
+      <h1>Recent Event</h1>
+    </div>
+
+    <div class="recent-event">
+      <div class="event-img">
+        <img width="100%" height="400px" src="images/event1.jpg" alt="" />
+      </div>
+      <div class="event-info">
+        <h3>Club Forum Fest!!!</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+          commodi sequi quas, itaque odit, perferendis libero omnis, illum sit
+          ipsam culpa reiciendis exercitationem iure. At est harum tempora modi
+          perspiciatis!
+        </p>
+      </div>
+    </div>
+
+    <div class="intro">
+      <h1>Gallery</h1>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery1">
+        <div class="gallery-img">
+          <img width="100%" height="250px" src="images/gallery5.jpg" alt="" />
+        </div>
+        <div class="gallery-txt">
+          <h3>Campus</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            quidem alias quia odit quisquam in
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery1">
+        <div class="gallery-img">
+          <img width="100%" height="250px" src="images/gallery10.jpg" alt="" />
+        </div>
+        <div class="gallery-txt">
+          <h3>Campus</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            quidem alias quia odit quisquam in, 
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery1">
+        <div class="gallery-img">
+          <img width="100%" height="250px" src="images/gallery3.jpg" alt="" />
+        </div>
+        <div class="gallery-txt">
+          <h3>Campus</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            quidem alias quia odit quisquam in,
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery1">
+        <div class="gallery-img">
+          <img width="100%" height="250px" src="images/gallery8.jpg" alt="" />
+        </div>
+        <div class="gallery-txt">
+          <h3>Campus</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            quidem alias quia odit quisquam in,
+          </p>
+        </div>
+      </div>
+
+      <div class="gallery1">
+        <div class="gallery-img">
+          <img width="100%" height="250px" src="images/gallery6.jpg" alt="" />
+        </div>
+        <div class="gallery-txt">
+          <h3>Campus</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+            quidem alias quia odit quisquam in,
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+<div style="text-align: center; margin: auto;">
+    <div class="more_button">
+      <a href="">View More</a>
+    </div>
+</div>
+
+
+
+    <div class="contact-intro">
+      <h1>Apply Online</h1>
+    </div>
+
+    <div class="contact">
+      
+
+      <div class="contact-form">
+
+                      
+        <div class="form-element">
+          <form action="">
+            <label for="name">Enter Your Name</label><br />
+            <input type="text" id="name" name="name" /><br /><br />
+
+            <label for="email">Enter Your Email</label><br />
+            <input type="text" id="email" name="email" /><br /><br />
+
+            <label for="number">Enter Your Number</label><br />
+            <input type="number" id="number" name="number" /><br /><br />
+
+            <label for="message">Your Message</label><br />
+            <textarea name="message" id="message"></textarea><br /><br />
+
+            <a class="btn" href="">Apply</a>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-info">
+        
+      <h1>Helpline</h1>
+      <h4>Admission Office: <strong>01878738818</strong></h4>
+      <h4>Others Info: <strong>01759103031</strong></h4>
+      <h4>Email: <strong>calestial@academy.ac.bd</strong></h4>
+      <h4>Website: <a style="color: navy; text-decoration: none; " href="">www.calestialacademy.com</a></h4>
+    
+    </div>
+
+    <!------------------------------Footer--------------------------------->
+    <div class="footer">
+      <div class="footer-social">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-youtube"></i></a>
+        <a href=""><i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="footer-txt">
+        <p>Copyright by CodeVibe Innovations</p>
+      </div>
+    </div>
+
+    <!---------------------Script to show Nav into Nav------------------------->
+    <script>
+      document.getElementById("explore").onclick = function () {
+        event.preventDefault();
+
+        var explorebox = document.getElementById("explore_box");
+
+        explorebox.style.display =
+          explorebox.style.display === "block" ? "none" : "block";
+      };
+    </script>
+
+
+
+
+    <!------------------Script to show Animation when Scroll----------------->
+    <script>
+      const blockClassNames = 
+      ["header", 
+       "intro", 
+      "contact-intro",
+      "why-txt", 
+      "event-info",
+      "notice",
+      "evaluation-intro",
+      "contact-info"
+      ]; // Specify multiple block class names here
+
+      const animateElements = () => {
+        blockClassNames.forEach((blockClassName) => {
+          const elements = document.querySelectorAll(`.${blockClassName} *`); // Select all child elements within each block
+          elements.forEach((element) => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top < window.innerHeight && rect.bottom > 0) {
+              element.classList.add("animate"); // Trigger animation
+            } else {
+              element.classList.remove("animate"); // Reset the animation if not in view
+            }
+          });
+        });
+      };
+
+      // Run on scroll
+      window.addEventListener("scroll", animateElements);
+
+      // Run on page load
+      window.addEventListener("load", animateElements);
+    </script>
+
+
+
+
+  </body>
+</html>
